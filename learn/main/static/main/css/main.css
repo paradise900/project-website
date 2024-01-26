@@ -1,0 +1,140 @@
+body {
+    background: #202124;
+}
+
+aside {
+    float: left;
+    background: #181818;
+    font-family: 'Montserrat',sans-serif;
+    padding: 35px;
+    height: 100%;
+    color: #66FCF1;
+    position: fixed;
+
+
+}
+
+aside img {
+    width: 130px;
+    float: left;
+
+}
+
+aside .logo {
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+}
+
+
+aside h3 {
+    margin-top: 110px;
+    font-size: 28px;
+
+}
+
+aside ul {list-style: none}
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform .5s ease;
+    text-decoration:none;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #45A29E;
+    transform: scale(1.03);
+}
+
+aside ul a {
+    text-decoration: none;
+}
+
+main .features {
+    margin-left: 400px;
+    float: left;
+    color: #fff;
+    margin-top: 50px;
+    text-align: justify;
+    width: 75%;
+    font-size: 14pt;
+    font-family: 'Montserrat',sans-serif;
+
+}
+
+
+
+main .features h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: #66FCF1;
+
+}
+main .features p {max-width: 1000px; margin: 20px auto}
+
+.alert-warning {
+
+    float: left;
+    clear: both;
+    width: 450px;
+    margin: 20px 34%;
+    text_align: left;
+    background: #181818;
+    border: 1px solid #A9EFFF;
+    color: #A9EFFF;
+    margin-left: 34%;
+    font-family: 'Montserrat',sans-serif;
+
+}
+
+.alert-warning a:hover {
+    transition: transform .5s ease-out;
+    transform: scale(1.03);
+}
+
+form {
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+}
+
+
+main ul {list-style: none}
+main ul li {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform .5s ease;
+    text-decoration:none;
+}
+
+main ul li:hover, main ul a:hover {
+    color: #45A29E;
+    transform: scale(1.03);
+}
+
+main ul a {
+    text-decoration: none;
+    text-align: center;
+}
+
+main ul p{
+    text-align: center;
+
+}
+
+.news{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+
+
+
